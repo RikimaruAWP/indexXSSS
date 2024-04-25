@@ -1,0 +1,59 @@
+html{
+    font-size: 62.5%;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+.navbar{
+    font-family: Apex;
+    height: 60px;
+    background-color: black;
+    color: #fff;
+    padding: auto;
+    display: flex;
+    align-items: center;
+}
+
+.navbar a{
+    font-size: 24px;
+    color: #f3f3f3;
+    text-decoration: none;
+}
+
+.navbar p{
+    font-size: 24px;
+}
+.navbar a:hover{
+    color: red;
+    text-decoration: none;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    position: relative;
+}
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #333;
+        z-index: 1;
+    }
+.dropdown-content li{
+    display: block;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.imagen_logo{
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+ margin-left: 40px;;
+}
+
+@font-face{
+    font-family: Apex;
+    src: url(../Duke/Duke\ Fill.otf)
+}
