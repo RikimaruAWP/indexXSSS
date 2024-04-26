@@ -1,17 +1,15 @@
 html{
     font-size: 62.5%;
-    line-height: 1.15;
-    -webkit-text-size-adjust: 100%;
 }
 
 .navbar{
     font-family: Apex;
     height: 60px;
+    padding: 10px 20px;
     background-color: black;
     color: #fff;
-    padding: auto;
     display: flex;
-    align-items: center;
+    align-self: center;;
 }
 
 .navbar a{
@@ -21,11 +19,16 @@ html{
 }
 
 .navbar p{
-    font-size: 24px;
+    font-size: 20px;
 }
+
 .navbar a:hover{
     color: red;
     text-decoration: none;
+}
+
+.nav-links li{
+    margin-left: 1rem;
 }
 
 .nav-links{
@@ -35,22 +38,37 @@ html{
 }
     .dropdown-content {
         display: none;
+        border-radius: 5%;
         position: absolute;
-        background-color: #333;
+        background-color: black;
+        opacity: 0.9;
         z-index: 1;
     }
+
 .dropdown-content li{
+    font-size: 5px;
     display: block;
 }
 
 .dropdown:hover .dropdown-content{
     display: block;
 }
+
 .imagen_logo{
- display: flex;
- align-items: center;
- justify-content: space-around;
- margin-left: 40px;;
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.dropdown-pullright{
+    background-color: red;
+    padding: 8px 25px;
+    margin-left: auto;
+}
+
+.dropdown-pullright a:hover{
+    color: white;
+    text-decoration: none;
 }
 
 @font-face{
