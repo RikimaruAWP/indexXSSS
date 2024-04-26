@@ -9,7 +9,7 @@ html{
     background-color: black;
     color: #fff;
     display: flex;
-    align-self: center;;
+    align-items: center;
 }
 
 .navbar a{
@@ -28,7 +28,7 @@ html{
 }
 
 .nav-links li{
-    margin-left: 1rem;
+    margin-left: 3.5rem;
 }
 
 .nav-links{
@@ -63,7 +63,9 @@ html{
 .dropdown-pullright{
     background-color: red;
     padding: 8px 25px;
-    margin-left: auto;
+    align-items: center;
+    position: relative;
+    left: 50rem;
 }
 
 .dropdown-pullright a:hover{
