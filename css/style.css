@@ -75,24 +75,24 @@ html {
 }
 
 .dropdown-pullright{
-    margin: 0 auto;
     background-color: rgb(218,41,42);
     padding: 8px 25px;
     align-items: center;
-    position: relative;
     align-content: center;
-    left: 35rem;
-    bottom: 0.7rem;
+    margin-left: auto;
+    margin-right: 1.5rem;
 }
 
 .dropdown-pullright a:hover{
     color: white;
     text-decoration: none;
 }
+
 .dropdown-pullright a{
     font-size: 1.8rem;
     font-family: TT Lakes ;
 }
+
 .contenido-main1 img{
     margin-left: 43.5%;
     margin-top: 10%;
@@ -104,9 +104,33 @@ html {
     font-size: 24px;
     text-align: center
 }
+.bottom a{
+    font-size: 1.8rem;
+    font-family: TT Lakes;
+    margin: 0 1.5rem;
+    background-color: rgb(218,41,42);
+    padding: 0.8rem 2.5rem;
+    bottom: 0.7rem;
+}
+
+.bottom a{
+    font-size: 1.8rem;
+    font-family: TT Lakes;
+    background-color: rgb(218,41,42);
+    padding: 0.8rem 2.5rem;
+    bottom: 0.7rem;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+}
 
 .contenido-main1{
     height: 1rem
+}
+
+.bottom-primary{
+    display: flex;
 }
 
 
