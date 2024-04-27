@@ -1,15 +1,28 @@
-html{
+html {
+    /**Reset para rems**/
     font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
 }
 
 .navbar{
     font-family: Apex;
     height: 60px;
-    padding: 10px 20px;
+    padding-top: 1.5rem;
     background-color: black;
     color: #fff;
     display: flex;
     align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
 }
 
 .navbar a{
@@ -23,7 +36,7 @@ html{
 }
 
 .navbar a:hover{
-    color: red;
+    color: rgb(218,41,42);
     text-decoration: none;
 }
 
@@ -57,23 +70,57 @@ html{
 .imagen_logo{
     display: flex;
     align-items: center;
-    margin-left: 25px;
+    padding-bottom: 1rem;
+    margin: 30px 48px;
 }
 
 .dropdown-pullright{
-    background-color: red;
+    margin: 0 auto;
+    background-color: rgb(218,41,42);
     padding: 8px 25px;
     align-items: center;
     position: relative;
-    left: 50rem;
+    align-content: center;
+    left: 35rem;
+    bottom: 0.7rem;
 }
 
 .dropdown-pullright a:hover{
     color: white;
     text-decoration: none;
 }
+.dropdown-pullright a{
+    font-size: 1.8rem;
+    font-family: TT Lakes ;
+}
+.contenido-main1 img{
+    margin-left: 43.5%;
+    margin-top: 10%;
+}
+
+.contenido-main1 h2{
+    font-family: TT Lakes;
+    color: white;
+    font-size: 24px;
+    text-align: center
+}
+
+.contenido-main1{
+    height: 1rem
+}
+
+
+.contenido-main1 video{
+    width: 100%;
+    min-height: 100vh;
+}
 
 @font-face{
     font-family: Apex;
     src: url(../Duke/Duke\ Fill.otf)
+}
+
+@font-face{
+    font-family: TT Lakes;
+    src: url(../fonts/tt_lakes_neue/TT\ Lakes\ Neue\ Trial\ Extended\ ExtraLight.ttf)
 }
