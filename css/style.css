@@ -9,6 +9,11 @@ html {
 *:after {
     box-sizing: inherit;
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .navbar{
     font-family: Apex;
@@ -19,8 +24,6 @@ html {
     display: flex;
     align-items: center;
     position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
     z-index: 10;
 }
@@ -81,6 +84,8 @@ html {
     align-content: center;
     margin-left: auto;
     margin-right: 1.5rem;
+    list-style: none;
+    margin-bottom: 1.5rem;
 }
 
 .dropdown-pullright a:hover{
@@ -106,38 +111,91 @@ html {
 }
 .bottom a{
     font-size: 1.8rem;
+    color: #fff;
     font-family: TT Lakes;
     margin: 0 1.5rem;
     background-color: rgb(218,41,42);
     padding: 0.8rem 2.5rem;
     bottom: 0.7rem;
+    text-decoration: none;
+}
+.bottom a :hover{
+    color: #fff;
 }
 
-.bottom a{
-    font-size: 1.8rem;
-    font-family: TT Lakes;
-    background-color: rgb(218,41,42);
-    padding: 0.8rem 2.5rem;
-    bottom: 0.7rem;
+.logo-info{
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
 }
-.bottom{
+video{
+    width: 100%;
+}
+
+.logo-text{
+    top: 30%;
+    right:30%;
+    position: absolute;
+    text-align: center;
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+.logo-text h2{
+    font-size: 2.4rem;
+    font-weight: 900;
+    z-index: 100;
+    color: #fff;
+    margin-bottom: 3rem;
+    font-family: TT LAkes;
 }
 
-.contenido-main1{
-    height: 1rem
+.logo-text h2 ::after{
+    display: block;
+    width: 30%;
 }
-
-.bottom-primary{
+.apex-haha{
+    position: relative;
+    align-items: end;
     display: flex;
-}
-
-
-.contenido-main1 video{
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    left: 0;
+    text-align: center;
+    top: 0;
     width: 100%;
-    min-height: 100vh;
 }
+
+.APEX-INFO-MAIN1{
+    margin-right: 35rem;
+    flex-direction: column;
+    display: flex;
+    position: absolute;
+}
+
+.APEX-INFO-MAIN1 h2{
+    font-family: Apex;
+    font-size: 6.4rem;
+}
+.APEX-INFO-MAIN1 h6{
+    font-family: TT Lakes;
+    font-size: 1.8rem;
+}
+.APEX-INFO-MAIN1 a{
+    color: #f3f3f3;
+    padding: 1.6rem 2.4rem;
+    font-family: TT Lakes;
+    font-size: 1.8rem;
+    margin: auto;
+    background-color: rgb(218,41,42);
+    border-radius: 5%;
+    text-decoration: none;
+}
+
+
 
 @font-face{
     font-family: Apex;
