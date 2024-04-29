@@ -359,6 +359,114 @@ video{
     text-align: center;
     font-size: 1.8rem;
 }
+.footer-main{
+    display: flex;
+    flex-direction: column;
+    width:auto ;
+    height:35rem ;
+    background-color: rgb(37,37,37);
+    padding: 1.9rem 16.8rem 1.6rem;
+}
+
+.footer-contenter{
+    display: flex;
+    margin: 0 19.7rem;
+    width: auto;
+    height: 8rem ;
+}
+
+.footer-contenter a{
+    margin: 0 1.2rem;
+    font-family: TT Lakes;
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: #a3a3a3;
+}
+
+.footer-contenter a:hover{
+    text-decoration: none;
+    color:rgb(218,41,42) ;
+}
+
+.link-info{
+    height: 50%;
+    width: 70%;
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-content: space-around;
+    flex-wrap: wrap;
+    border-bottom: #a3a3a3 solid;
+}
+
+
+.info-right{
+    margin-bottom: 2rem;
+    height: 15%;
+    width: 30%;
+    text-align: end;
+    justify-content: center;
+    margin-right:auto ;
+}
+.info-right a{
+    font-size: 2.2rem;
+}
+
+.info-right h3{
+    margin: 0 1.3rem;
+    font-family: TT Lakes;
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: #a3a3a3;
+}
+.link-logo{
+    margin: 0 19.7rem;
+    align-content: center;
+    display: flex;
+    height: auto;
+}
+
+.apex-series-logo{
+    margin: 2%;
+    height: 5.5rem;
+    width: auto;
+}
+.apex-logo-white{
+    margin: 2%;
+    height: 8.4rem;
+    width: auto;
+
+}
+
+.apex-respawn-logo{
+    height: 5.4rem ;
+    width: auto;
+    margin: 2%;
+}
+
+.ea-ratingApex{
+    margin-left: 20%;
+    display: flex
+}
+.info-ratingApex{
+    margin: 2%;
+}
+.ea-ratingApex img{
+    height: 9.6rem ;
+    width: auto;
+}
+
+.info-ratingApex p{
+    text-align: start;
+    font-family: Electronic Arts Text;
+    font-size: 1.2rem;
+    color: rgb(163,163,163);
+    border-bottom: #a3a3a3 solid;
+}
+.list p{
+    border-style: none;
+}
 
 
 
