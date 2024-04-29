@@ -134,14 +134,15 @@ video{
 }
 
 .logo-text{
-    top: 30%;
-    right:30%;
+    top: 30rem;
+    left: 60rem;
     position: absolute;
+    align-items: center;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column
+    flex-direction: column;
 }
 .logo-text h2{
     font-size: 2.4rem;
@@ -189,6 +190,7 @@ video{
     font-family: TT Lakes;
     font-size: 1.8rem;
 }
+
 .APEX-INFO-MAIN1 a{
     color: #f3f3f3;
     padding: 1.6rem 2.4rem;
@@ -212,9 +214,150 @@ video{
     top: 0;
     width: 100%;
 }
+
 .apex-imagen-fov img{
     height: 80vh;
     width: 100%;
+}
+
+.new-apex h3{
+    font-size: 5rem;
+    font-family: Apex;
+    text-align: center;
+    position: absolute;
+    display: flex;
+    bottom: 30rem;
+    margin-bottom: 15%;
+}
+
+.new-apex{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+
+.new-apex img{
+    margin-left: 1rem;
+    width: 40rem;
+    height: auto;
+    margin-bottom: auto;
+}
+
+.info-apex{
+    color: #fff;
+    margin-left: 1rem;
+    text-align: left;
+    background-color: black;
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: 2.4rem;
+    font-family: Apex;
+}
+
+.card-new{
+    margin-left: 1rem;
+    padding: 2.4rem;
+    background-color: black;
+    text-align: left;
+    margin-top: -1rem;
+
+}
+
+.title-red{
+    margin-left: 1rem;
+    color:rgb(218,41,42) ;
+    font-family: Apex;
+    font-size: 2.4rem;
+
+}
+
+.date{
+    color:white;
+    margin-left: 5rem;
+    font-family: Apex;
+    font-size: 2.2rem;
+
+}
+
+.sub-info{
+    font-size: 1.8rem;
+    font-family: TT Lakes;
+}
+
+.info-apex a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.card-new{
+    border-bottom: red solid;
+}
+
+.main-background2{
+    position: relative;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    left: 0;
+    text-align: center;
+    top: 0;
+    width: 100%;
+}
+
+.main-background2 img{
+    height: 80vh;
+    width: 100%;
+}
+.title-background2{
+    flex-direction: column;
+    position: absolute;
+    display: flex;
+    text-align: center;
+}
+
+.title-background2 h2{
+    text-align: center;
+    color: #fff;
+    font-family: Apex;
+    font-size: 4.8rem;
+}
+.title-background2 p{
+    color: #fff;
+    font-family: TT Lakes;
+    font-size: 2.4rem;
+    
+}
+
+
+.contedor-imgenes{
+    margin: 0  auto;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+    left: 0;
+    text-align: center;
+    top: 0;
+    width: 10%;
+}
+
+.apex-info-gameplay img{
+    height: 35% ;
+    width: 50rem;
+}
+
+.title-info b{
+    text-align: center;
+    font-family: TT Lakes;
+    color: #fff;
+    font-size: 2.4rem;
+}
+.info p{
+    text-align: center;
+    font-size: 1.8rem;
 }
 
 
